@@ -10,11 +10,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 numero_id = 0
 
 banco = mysql.connector.connect(
-    host="26.10.149.113",
-    port=3306,
-    user="teste",
-    passwd="73914682@Vv",
-    database="cadastro_produtos"
+*
 )
 def gerar_pdf():
     cursor = banco.cursor()
